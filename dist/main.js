@@ -1,1 +1,1 @@
-(()=>{"use strict";document.getElementById("root").innerHTML=`<h2> hello </h2> ${function({name:e}){return`<h2>welcome ${e}</h2>`}({name:"sushil"})} `})();
+(()=>{"use strict";document.getElementById("root").innerHTML=`<h2> hello </h2> ${function({name:e}){return`<h2>welcome ${e}</h2>`}({name:"sushil"})}`})();
