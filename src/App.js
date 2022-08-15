@@ -1,4 +1,4 @@
-function App ({name}) {
+const  App = ({name}) => {
     return `<h2>welcome ${ name }</h2>`;
     
 };

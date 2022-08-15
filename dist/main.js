@@ -1,1 +1,1 @@
-(()=>{"use strict";document.getElementById("root").innerHTML=`<h2> hello </h2> ${function({name:e}){return`<h2>welcome ${e}</h2>`}({name:"sushil"})}`})();
+!function(){"use strict";var e;document.getElementById("root").innerHTML="<h2> hello </h2> ".concat((e={name:"sushil"}.name,"<h2>welcome ".concat(e,"</h2>")))}();
