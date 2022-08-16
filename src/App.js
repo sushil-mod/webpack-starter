@@ -1,7 +1,8 @@
+import _ from 'lodash' ;
 import './App.css';
 import logo from './jedi-logo.svg';
 const  App = ({name}) => {
-    return `<h2>welcome ${ name }</h2> <img src="${ logo }" alt="jedi logo"/> `;
+    return `<h2>welcome ${_.join(["welcome ," ,name ]," ")}</h2> <img src="${ logo }" alt="jedi logo"/> `;
     
 };
 
